@@ -1,0 +1,74 @@
+body{
+    
+    background-image: url(https://www.chateaudetresserve.com/wp-content/uploads/Salles-1.jpg);
+    background-size: cover;
+}
+(max-width: 1200px)
+
+#texte{
+    
+    width: 100%;
+    margin-bottom: 10px;}
+
+a{
+    color: white;
+}
+.texte {
+    margin-top: 65vh;
+    margin-left: 6vh;
+    width: 90%;
+    float: left;
+    padding: 20px;
+    background: pink;
+    border: 2px solid #565264;
+    border-radius: 25px;
+    color: white;}
+
+h2{
+    font-size: 2em;
+    
+}
+p{
+    display: block;
+    font-size: 1.5em;}
+.mariée{
+    font-size: 1.5rem;
+    margin:0rem;
+}
+.barre {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    display: flow-root;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    color: white;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+ul {
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;}
+li{
+    float: left}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+.lang_drapeau {
+    border-radius: 50%;
+    border: 6px solid black;
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+}
+.language {
+    margin-top: 15px;
+    text-align: center;
+}
